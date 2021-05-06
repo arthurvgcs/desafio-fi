@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*corpo do site */
+*{
+    font-family: Poppins, sans-serif;
+
+}
+
+body{
+    background: #050A30 url(../img/fundo-fundo.png);
+}
+
+/*estilização barra de navegação e botão para a arena FI*/
+.botao-aluno{
+    background-color:#80BDFF;
+    margin-left: 20px;
+    margin-right: 83px;
+    padding: 5px;
+    width: 311px;
+    height: 47px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+}
+
+.botao-aluno a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao-aluno:hover{
+    background-color: #050A30;
+    cursor: pointer;
+
+}
+
+.navegacao{
+    margin-right: 46px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.navegacao:hover{
+    background-color: #050A30;
+}
+
+
+#logo{
+    margin-left: 57px;
+}
+
+
+/*logo lateral*/
+
+#logo-lateral{
+    margin-top:250px;
+    margin-left: 50px;
+    width: 50px;
+
+}
+
+/*Texto da arte desafio fi*/
+#titulo-desafio{
+    margin-left: 600px;
+    font-size: 86px;
+    margin-top: -70px;
+    color: white;
+    height: 350px;
+}

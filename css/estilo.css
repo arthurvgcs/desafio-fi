@@ -1,0 +1,265 @@
+/*Importação da fonte poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Definindo a fonte do texto para todo documento*/
+* {
+  font-family: Poppins, sans-serif;
+}
+
+/* Editando a scrollbar padrão */
+/* Largura da scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Trilho da scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Cor da barra padrão */
+::-webkit-scrollbar-thumb {
+  background: #943a3a;
+}
+
+/* Quando o mouse tiver em cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #e8e84c;
+}
+
+/* Inicio da estilização do header */
+#topo-curso {
+  border: 1px solid transparent;
+  background: #0c0d0d url(../img/juizao.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-texto {
+  color: #e8e84c;
+}
+
+.botao-matricula {
+  background-color: #e8e84c;
+  border-radius: 26px;
+}
+/*Fim da estilização do header */
+
+/*Inicio da estilização da nav */
+.barra-nav {
+  background-color: #0c0c0d;
+}
+
+.bg-tabcontent {
+  background-color: #eeeeee;
+}
+
+.abas {
+  line-height: 60px;
+  color: white;
+  margin: 0px 100px;
+}
+
+li .active {
+  color: #b04646;
+  border-bottom: 5px solid #b04646;
+}
+/*Fim da estilização da nav*/
+/*Inicio da estilização da flex tab Conteúdos*/
+
+.card-title {
+  font-size: 16px;
+}
+
+.botao-curso {
+  background-color: #b04646;
+  color: white;
+  text-decoration: none;
+  cursor: default;
+  border-radius: 16px;
+  margin-top: 5px;
+}
+
+.botao-curso:hover {
+  background-color: #943a3a;
+  color: white;
+}
+/*Final da estilização da flex tab Conteúdos*/
+
+/*Inicio da estilização da flex tab Publico alvo*/
+
+.numberCircle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 21.6px;
+  color: #ffffff;
+  background: #ffffff;
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-body {
+  position: relative;
+}
+
+.icon-publico {
+  margin-top: 11px;
+}
+
+.cartao-deslocado {
+  margin-left: 180px;
+}
+/*Fim da estilização da flex tab Publico alvo*/
+
+/*Inicio da estilização da flex tab Professores*/
+
+.profile-card-3 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 368px;
+  border: none;
+}
+.profile-card-3 .background-block {
+  float: left;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.profile-card-3 .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #b04646;
+  float: left;
+  background: white;
+  height: 50%;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 9999;
+}
+.profile-card-3 .card-content::before {
+  content: '';
+  background: white;
+  width: 120%;
+  height: 100%;
+  left: 11px;
+  bottom: 51px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-13deg);
+}
+.profile-card-3 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index: 99999;
+}
+.profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.profile-card-3 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.profile-card-3 i {
+  display: inline-block;
+  font-size: 16px;
+  color: #232323;
+  text-align: center;
+  border: 1px solid #232323;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.profile-card-3 .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.profile-card-3 .icon-block a {
+  text-decoration: none;
+}
+.profile-card-3 i:hover {
+  background-color: #232323;
+  color: #fff;
+  text-decoration: none;
+}
+/*Fim estilização da flex tab Professores
+
+/*Inicio estilização mais informações*/
+.texto-informativo {
+  height: 475px;
+  width: 430px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.texto-informativo h5 {
+  color: #b04646;
+  margin-left: 20px;
+  line-height: 100px;
+}
+
+.texto-informativo ul li {
+  line-height: 50px;
+  margin-left: 30px;
+}
+
+.botao-final {
+  background-color: #e8e84c;
+  color: #0c0c0d;
+  text-decoration: none;
+  width: 200px;
+  border-radius: 19px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.botao-final:hover {
+  background-color: #9b9b31;
+  color: #0c0c0d;
+}
+
+.pagamento {
+  text-align: center;
+}
+
+.pagamento .texto-pagamento {
+  line-height: 85px;
+  color: #b04646;
+}
+
+/*Fim estilização flex tab mais informações*/
+/* Estilização footer */
+.bg-darken{
+    background: black;
+    color: white;
+}

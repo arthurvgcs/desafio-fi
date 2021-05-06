@@ -1,0 +1,52 @@
+/*importação da fonte poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*definições pro código todo*/
+*{
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background: #fff url(../img/fundo-login-2.png);  
+}
+
+/*Estilização do header*/
+.logo-arena{
+    background: #fff;
+    display: inline;
+    padding: 40px;
+    border-radius: 90px;  
+}
+/*Estilização do card de login*/
+.login{
+    margin-top: 130px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background: url(../img/fundo-email-senha-2.svg) no-repeat;
+    margin: auto;
+}
+
+.visual-login{
+    width: 400px;
+    margin: auto;
+
+}
+
+.botao-cadastro{
+    background-color: #F7AB58;
+    color: white;
+    border-radius: 30px;
+}
+
+.botao-login{
+    background-color: #0260CC;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+
