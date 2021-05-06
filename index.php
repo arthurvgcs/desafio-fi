@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -41,7 +42,7 @@
                 <li class="nav-item navegacao">
                     <a href="" class="nav-link text-white">Parceiros</a>
                 </li>
-                <a class="nav-item botao-aluno" href="http://localhost/login.php">Arena FI</a>
+                <a class="btn botao-aluno" href="http://localhost/login.php">Arena FI</a>
             </ul>
         </div>
         <!--Fim navegação-->

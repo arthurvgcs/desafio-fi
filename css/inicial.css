@@ -7,12 +7,16 @@
 }
 
 body{
+    height: 100vh;
     background: #050A30 url(../img/fundo-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /*estilização barra de navegação e botão para a arena FI*/
 .botao-aluno{
-    background-color:#80BDFF;
+    background-color:white;
     margin-left: 20px;
     margin-right: 83px;
     padding: 5px;
@@ -23,15 +27,9 @@ body{
     border-radius: 10px;
 }
 
-.botao-aluno a{
-    color: white;
-    text-decoration: none;
-}
-
 .botao-aluno:hover{
-    background-color: #050A30;
+    background-color: whitesmoke;
     cursor: pointer;
-
 }
 
 .navegacao{

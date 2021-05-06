@@ -17,3 +17,4 @@ if($login == $usuarios['loginAcesso'] && $senha == $usuarios['senhaAcesso']){
     //Função com a funcionalidade de recarregar a pagina de login(quando o login for incorreto)
     header('location: http://localhost/login.php');
 }
+exit;

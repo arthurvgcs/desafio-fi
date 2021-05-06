@@ -1,0 +1,31 @@
+/*Algumas modificações no header do dashboard*/
+
+.bg-header {
+  background-color: #0F2F51;
+}
+
+.form-search {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #1AF8F2;
+  color: white;
+}
+
+.text-fi {
+  color: #1AF8F2;
+}
+
+.nav-fi{
+  font-size: 14px;
+  color: white;
+}
+
+.nav-fi:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.banner-principal {
+  background-color: #1AF8F2;
+}

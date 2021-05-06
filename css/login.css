@@ -8,7 +8,11 @@
 }
 
 body{
+    height: 100vh;
     background: #fff url(../img/fundo-login-2.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Estilização do header*/
@@ -20,12 +24,9 @@ body{
 }
 /*Estilização do card de login*/
 .login{
-    margin-top: 130px;
-    width: 600px;
     height: 300px;
     text-align: center;
-    background: url(../img/fundo-email-senha-2.svg) no-repeat;
-    margin: auto;
+    background: url(../img/fundo-email-senha-2.svg) no-repeat center;
 }
 
 .visual-login{
@@ -46,7 +47,8 @@ body{
     border-radius: 30px;
 }
 
-
-
-
-
+.btn-arena {
+    background-color: white;
+    border-radius: 90px;
+    pointer-events: none;
+}
